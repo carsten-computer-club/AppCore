@@ -42,3 +42,5 @@ jobs:
       with:
         tag_name: ${{ env.RELEASE_TAG }}
         name: ${{ env.RELEASE_NAME }}
+        body: ""
+        files: "packages/JaisAppCore.${{ github.event.inputs.version }}.nupkg"
