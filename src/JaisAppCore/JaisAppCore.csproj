@@ -5,6 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Authors>Julian Baumann</Authors>
+        <RepositoryUrl>https://github.com/carsten-computer-club/AppCore</RepositoryUrl>
     </PropertyGroup>
     
     <ItemGroup>
