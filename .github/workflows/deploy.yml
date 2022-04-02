@@ -12,7 +12,6 @@ jobs:
   build:
     name: "Build and Publish"
     runs-on: ubuntu-latest
-    environment: Deployment
     steps:
     - uses: actions/checkout@v2
 

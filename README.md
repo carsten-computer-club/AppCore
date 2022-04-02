@@ -1,3 +1,3 @@
 # JAIS AppCore
 
-This package provides necessary assets, to build JAIS apps.
+This package provides necessary assets, for building JAIS apps.
