@@ -15,7 +15,7 @@ public class AppAttribute : Attribute
     {
         AppName = name;
 
-        string? assemblyName = Assembly.GetEntryAssembly()?.GetName()?.Name;
+        string? assemblyName = Assembly.GetAssembly(typeof(AppAttribute))?.GetName()?.Name;
         var assets = AvaloniaLocator.Current.GetService<IAssetLoader>();
         Stream? asset = assets?.Open(new Uri($"avares://{assemblyName}{iconPath}"));
 
